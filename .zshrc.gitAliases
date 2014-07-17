@@ -1,0 +1,14 @@
+alias "gdt=git difftool"
+alias "gd=git diff --color"
+alias "gst=git status"
+alias "glg=git log --decorate --color --graph --stat"
+alias "gb=git branch"
+alias "ga=git add"
+alias "gco=git checkout"
+if [[ -n $WINDIR ]]; then
+    alias "gdt=git difftool"
+else
+    alias "gdt=git difftool -t gvimdiff"
+fi
+alias "gc=git commit"
+
