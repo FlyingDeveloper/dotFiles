@@ -13,4 +13,5 @@ fi
 alias "gc=git commit"
 alias gfu="git fetch upstream"
 alias grum="git rebase upstream/master"
+alias gp="git push"
 
