@@ -14,3 +14,5 @@ inoremap <C-H> <Esc>:Hexmode<CR>
 vnoremap <C-H> :<C-U>Hexmode<CR>
 set ignorecase 
 set backspace=indent,eol,start
+
+nnoremap <F5> :buffers<CR>:buffer<Space>
