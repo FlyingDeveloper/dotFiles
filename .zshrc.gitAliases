@@ -11,6 +11,7 @@ else
     alias "gdt=git difftool -t gvimdiff"
 fi
 alias "gc=git commit"
+alias gf="git fetch"
 alias gfu="git fetch upstream"
 alias grum="git rebase upstream/master"
 alias gp="git push"
