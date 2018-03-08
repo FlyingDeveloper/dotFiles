@@ -16,3 +16,14 @@ set ignorecase
 set backspace=indent,eol,start
 
 nnoremap <F5> :buffers<CR>:buffer<Space>
+
+" see https://github.com/tpope/vim-pathogen
+execute pathogen#infect() 
+
+" see https://github.com/ctrlpvim/ctrlp.vim
+set runtimepath^=~/.vim/bundle/ctrlp
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+set wildignore=node_modules,bower_components,X86_64,X86_64_DEBUG
+
+colorscheme desert
