@@ -6,4 +6,4 @@ function updateDisplay() {
     export $1
 }
 
-export "GREP_OPTIONS=--color -i"
+alias "grep=grep --color -i"
