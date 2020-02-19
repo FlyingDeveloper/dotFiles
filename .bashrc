@@ -1,4 +1,8 @@
-alias ls="ls -al --color=always"
+if [ "$(uname)" "==" "Darwin" ]; then
+  alias ls="ls -al"
+else
+  alias ls="ls -al --color=always"
+fi
 export "LESS=-R"
 
 function updateDisplay() {

@@ -24,6 +24,6 @@ execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-set wildignore=node_modules,bower_components,X86_64,X86_64_DEBUG
+set wildignore=node_modules,bower_components,X86_64,X86_64_DEBUG,dist
 
 colorscheme desert
