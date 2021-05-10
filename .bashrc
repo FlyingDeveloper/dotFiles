@@ -11,3 +11,4 @@ function updateDisplay() {
 }
 
 alias "grep=grep --color -i"
+alias "k=kubectl"
